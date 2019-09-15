@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61198" started-at="2019-09-06T10:16:23Z" finished-at="2019-09-06T10:17:24Z">
+  <suite name="Default suite" duration-ms="47247" started-at="2019-09-14T10:27:05Z" finished-at="2019-09-14T10:27:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61198" started-at="2019-09-06T10:16:23Z" finished-at="2019-09-06T10:17:24Z">
-      <class name="com.training.sanity.tests.AddNewPropertTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.AddNewPropertTests@7e0babb1]" name="setUpBeforeClass" is-config="true" duration-ms="37" started-at="2019-09-06T15:46:23Z" finished-at="2019-09-06T15:46:23Z">
+    <test name="Default test" duration-ms="47247" started-at="2019-09-14T10:27:05Z" finished-at="2019-09-14T10:27:52Z">
+      <class name="com.training.sanity.tests.SendExcelQueryTests1">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.SendExcelQueryTests1@5ba23b66]" name="setUpBeforeClass" is-config="true" duration-ms="28" started-at="2019-09-14T15:57:05Z" finished-at="2019-09-14T15:57:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.AddNewPropertTests@7e0babb1]" name="setUp" is-config="true" duration-ms="23034" started-at="2019-09-06T15:46:23Z" finished-at="2019-09-06T15:46:46Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SendExcelQueryTests1@5ba23b66]" name="setUp" is-config="true" duration-ms="20054" started-at="2019-09-14T15:57:06Z" finished-at="2019-09-14T15:57:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validAddNewPropertTests()[pri:0, instance:com.training.sanity.tests.AddNewPropertTests@7e0babb1]" name="validAddNewPropertTests" duration-ms="38096" started-at="2019-09-06T15:46:46Z" finished-at="2019-09-06T15:47:24Z">
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.SendExcelQueryTests1@5ba23b66]" name="loginDBTest" duration-ms="4097" started-at="2019-09-14T15:57:26Z" data-provider="excel-inputs" finished-at="2019-09-14T15:57:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Email3@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ looking for an plots]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[looking for an apartments]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validAddNewPropertTests -->
-      </class> <!-- com.training.sanity.tests.AddNewPropertTests -->
+        </test-method> <!-- loginDBTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SendExcelQueryTests1@5ba23b66]" name="tearDown" is-config="true" duration-ms="1874" started-at="2019-09-14T15:57:30Z" finished-at="2019-09-14T15:57:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SendExcelQueryTests1@5ba23b66]" name="setUp" is-config="true" duration-ms="14474" started-at="2019-09-14T15:57:32Z" finished-at="2019-09-14T15:57:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginDBTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.SendExcelQueryTests1@5ba23b66]" name="loginDBTest" duration-ms="3745" started-at="2019-09-14T15:57:46Z" data-provider="excel-inputs" finished-at="2019-09-14T15:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Email3@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ looking for an plots]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[looking for an apartments]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDBTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SendExcelQueryTests1@5ba23b66]" name="tearDown" is-config="true" duration-ms="1921" started-at="2019-09-14T15:57:50Z" finished-at="2019-09-14T15:57:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.SendExcelQueryTests1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
